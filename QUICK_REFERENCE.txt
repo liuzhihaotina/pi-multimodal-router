@@ -1,0 +1,82 @@
+╔═══════════════════════════════════════════════════════════════╗
+║         Multimodal Router for Pi - Quick Reference           ║
+║                      Version 0.1.0                           ║
+╚═══════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📦 INSTALLATION                                             │
+└─────────────────────────────────────────────────────────────┘
+  cd D:\_tina\learning\AI_project\pi_custom\multimodal-router
+  .\deploy.ps1
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚀 START                                                    │
+└─────────────────────────────────────────────────────────────┘
+  pi
+
+┌─────────────────────────────────────────────────────────────┐
+│ ✅ FEATURES (Phase 1)                                       │
+└─────────────────────────────────────────────────────────────┘
+  
+  🎨 IMAGE GENERATION
+     "generate a sunset image"
+     → Calls Qwen/Qwen-Image
+     → Saves to .artifacts/YYYY-MM-DD/image-xxx.png
+  
+  👁️ VISION UNDERSTANDING
+     [Attach image.png] + "what's in this image?"
+     → Auto-detects text-only models
+     → Calls Qwen3-VL-32B for analysis
+     → Injects description into prompt
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🔧 COMMANDS                                                 │
+└─────────────────────────────────────────────────────────────┘
+  /reload          Reload extension
+  /model           Check current model
+  Ctrl+P           Cycle models
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📁 OUTPUT LOCATIONS                                         │
+└─────────────────────────────────────────────────────────────┘
+  Images:  D:\_tina\learning\AI_project\pi_custom\.artifacts\
+  Config:  C:\Users\liuzh\.pi\agent\extensions\multimodal-router\
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🧪 TEST                                                     │
+└─────────────────────────────────────────────────────────────┘
+  $env:SILICONFLOW_API_KEY='sk-...'
+  node test-api.mjs
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📖 DOCS                                                     │
+└─────────────────────────────────────────────────────────────┘
+  PROJECT_SUMMARY.md  - Complete project summary
+  USAGE.md           - Detailed usage guide
+  QUICKSTART.md      - Quick start guide
+  README.md          - Full documentation
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🐛 TROUBLESHOOTING                                          │
+└─────────────────────────────────────────────────────────────┘
+  Extension not loading?
+    → Run: .\deploy.ps1
+    → In Pi: /reload
+  
+  API Key error?
+    → Restart terminal
+    → Check: $env:SILICONFLOW_API_KEY
+  
+  Where are my images?
+    → explorer D:\_tina\learning\AI_project\pi_custom\.artifacts
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚧 COMING SOON                                              │
+└─────────────────────────────────────────────────────────────┘
+  🎬 Video Generation
+  🎤 Audio Transcription
+  📚 PDF RAG
+
+╔═══════════════════════════════════════════════════════════════╗
+║  Ready to use! Start Pi and try: "generate a sunset image"  ║
+╚═══════════════════════════════════════════════════════════════╝

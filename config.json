@@ -1,0 +1,48 @@
+{
+  "siliconflow": {
+    "baseUrl": "https://api.siliconflow.cn/v1",
+    "vision": {
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "description": "High-quality vision understanding model"
+    },
+    "embedding": {
+      "model": "Qwen/Qwen3-VL-Embedding-8B",
+      "description": "Multimodal embedding model"
+    },
+    "speechToText": {
+      "model": "FunAudioLLM/SenseVoiceSmall",
+      "description": "Speech to text transcription"
+    },
+    "imageGeneration": {
+      "model": "Qwen/Qwen-Image",
+      "description": "Qwen high-quality image generation (SiliconFlow fallback)",
+      "defaultWidth": 1024,
+      "defaultHeight": 1024
+    },
+    "videoGeneration": {
+      "model": "Wan-AI/Wan2.2-T2V-A14B",
+      "description": "Text to video generation",
+      "pollInterval": 3000,
+      "maxRetries": 100
+    },
+    "textToSpeech": {
+      "model": "FunAudioLLM/CosyVoice2-0.5B",
+      "description": "Text to speech synthesis"
+    }
+  },
+  "documents": {
+    "directContextTokenLimit": 30000,
+    "chunkTokens": 1200,
+    "chunkOverlap": 150,
+    "topK": 8
+  },
+  "routing": {
+    "autoVisionFallback": true,
+    "autoDocumentRetrieval": true,
+    "autoAudioTranscription": true
+  },
+  "storage": {
+    "artifactsDir": "D:/_tina/learning/AI_project/pi_custom/.artifacts",
+    "indexesDir": "D:/_tina/learning/AI_project/pi_custom/.indexes"
+  }
+}

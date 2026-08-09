@@ -1,0 +1,41 @@
+{
+  "name": "pi-multimodal-router",
+  "version": "0.2.0",
+  "description": "Multimodal routing extension for Pi Coding Agent with smart provider routing and SiliconFlow API integration",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "keywords": [
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "multimodal",
+    "vision",
+    "image-generation",
+    "siliconflow",
+    "ai",
+    "llm",
+    "routing"
+  ],
+  "author": "tina",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pi-multimodal-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pi-multimodal-router/issues"
+  },
+  "homepage": "https://github.com/yourusername/pi-multimodal-router#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
