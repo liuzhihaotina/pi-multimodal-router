@@ -7,7 +7,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 1. **Fork the repository**
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/yourusername/pi-multimodal-router.git
+   git clone https://github.com/liuzhihaotina/pi-multimodal-router.git
    cd pi-multimodal-router
    ```
 3. **Create a branch**:
@@ -217,8 +217,8 @@ To add support for a new image generation provider:
 
 ## 📞 Questions?
 
-- Open a [Discussion](https://github.com/yourusername/pi-multimodal-router/discussions)
-- Check existing [Issues](https://github.com/yourusername/pi-multimodal-router/issues)
+- Open a [Discussion](https://github.com/liuzhihaotina/pi-multimodal-router/discussions)
+- Check existing [Issues](https://github.com/liuzhihaotina/pi-multimodal-router/issues)
 - Read the [Documentation](docs/)
 
 ## 📜 License
