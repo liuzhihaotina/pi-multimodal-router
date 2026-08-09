@@ -81,6 +81,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Links
 
-- [GitHub Releases](https://github.com/yourusername/pi-multimodal-router/releases)
-- [Issues](https://github.com/yourusername/pi-multimodal-router/issues)
-- [Discussions](https://github.com/yourusername/pi-multimodal-router/discussions)
+- [GitHub Releases](https://github.com/liuzhihaotina/pi-multimodal-router/releases)
+- [Issues](https://github.com/liuzhihaotina/pi-multimodal-router/issues)
+- [Discussions](https://github.com/liuzhihaotina/pi-multimodal-router/discussions)

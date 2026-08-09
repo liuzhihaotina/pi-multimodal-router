@@ -26,12 +26,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pi-multimodal-router.git"
+    "url": "https://github.com/liuzhihaotina/pi-multimodal-router.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/pi-multimodal-router/issues"
+    "url": "https://github.com/liuzhihaotina/pi-multimodal-router/issues"
   },
-  "homepage": "https://github.com/yourusername/pi-multimodal-router#readme",
+  "homepage": "https://github.com/liuzhihaotina/pi-multimodal-router#readme",
   "engines": {
     "node": ">=18.0.0"
   },
